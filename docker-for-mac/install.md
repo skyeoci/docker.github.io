@@ -35,7 +35,9 @@ for Docker for Mac, and how the two products can coexist.
   - Mac hardware must be a 2010 or newer model, with Intel's hardware support for memory
     management unit (MMU) virtualization, including Extended Page Tables (EPT) and
     Unrestricted Mode. You can check to see if your machine has this support by
-    running the following command  in a terminal: `sysctl kern.hv_support`
+    running the following command  in a terminal: `sysctl kern.hv_support` 
+    
+    Note that a '1' means virtualization is enabled on the platform, '0' indicates virtualization is not enabled.
 
   - macOS El Capitan 10.11 and newer macOS releases are supported. We recommend
     upgrading to the latest version of macOS.
